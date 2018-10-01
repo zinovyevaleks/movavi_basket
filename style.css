@@ -17,16 +17,8 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-bottom: 1px solid #d4d4d4;
     margin-top: 20px;
     padding-bottom: 20px; }
-    .products .item:before {
-      content: '';
-      background-color: #fff;
-      height: 2px;
-      width: 10px;
-      position: absolute;
-      top: 346px; }
     .products .item .description {
       width: 333px;
       margin-left: 20px; }
@@ -71,6 +63,11 @@ header {
           background-color: #007bff; }
         .products .item .price button:focus {
           outline: none; }
+  .products .border {
+    height: 1px;
+    width: 701px;
+    background-color: #d4d4d4;
+    margin-left: 10px; }
 
 * {
   margin: 0;
