@@ -1,10 +1,76 @@
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 104px;
   background-color: #000000; }
   header .logo {
     margin-left: 10px; }
+
+.products {
+  width: 711px;
+  padding-top: 20px;
+  padding-bottom: 18px; }
+  .products .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 2px solid #d4d4d4;
+    padding-bottom: 20px; }
+    .products .item:before {
+      content: '';
+      background-color: #fff;
+      height: 2px;
+      width: 10px;
+      position: absolute;
+      top: 346px; }
+    .products .item .description {
+      width: 310px;
+      margin-left: 20px; }
+      .products .item .description h2 {
+        margin-top: 16px;
+        margin-bottom: 16px; }
+    .products .item .price {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-left: 42px; }
+      .products .item .price span {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        text-align: justify; }
+      .products .item .price button {
+        width: 201px;
+        height: 41px;
+        background-color: #00aee5;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-shadow: 1px 2px 2px rgba(2, 89, 117, 0.6); }
+        .products .item .price button:hover {
+          cursor: pointer; }
+        .products .item .price button:active {
+          background-color: #007bff; }
+        .products .item .price button:focus {
+          outline: none; }
 
 * {
   margin: 0;
@@ -24,10 +90,13 @@ h2 {
   text-align: left; }
 
 p {
-  font-family: Arial;
   color: #132328;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.3px;
   line-height: 18px;
   text-align: left; }
+
+footer {
+  height: 121px;
+  background-color: #10546b; }

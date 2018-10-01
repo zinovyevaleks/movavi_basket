@@ -1,4 +1,5 @@
 @import "header.scss";
+@import "products.scss";
 
 * {
   margin: 0;
@@ -21,11 +22,15 @@ text-align: left;
 }
 
 p {
-  font-family: Arial;
-color:  #132328;
-font-size: 12px;
-font-weight: 400;
-letter-spacing: 0.3px;
-line-height: 18px;
-text-align: left;
+  color:  #132328;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  text-align: left;
+}
+
+footer {
+  height: 121px;
+  background-color: #10546b;
 }
