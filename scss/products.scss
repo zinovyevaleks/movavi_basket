@@ -1,11 +1,12 @@
 .products {
   width: 711px;
-  padding-top: 20px;
+
   padding-bottom: 18px;
 
   .item {
     display: flex;
-    border-bottom: 2px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    margin-top: 20px;
     padding-bottom: 20px;
 
     &:before {
@@ -18,7 +19,7 @@
     }
 
     .description {
-      width: 310px;
+      width: 333px;
       margin-left: 20px;
 
       h2 {
@@ -32,7 +33,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: 42px;
+      margin-left: 18px;
 
       span {
         font-size: 24px;
