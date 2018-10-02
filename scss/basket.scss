@@ -1,0 +1,39 @@
+.basket {
+  width: 226px;
+  height: 365px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+
+
+  .basket_header {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-top: 15px;
+      margin-right: 17px;
+      margin-left: 14px;
+    }
+
+    h2 {
+          margin-top: 18px;
+    }
+  }
+
+  button {
+    background-color: #24d901;
+
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      background-color: #1caa00;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -46,17 +46,7 @@ header {
         letter-spacing: 0.6px;
         text-align: justify; }
       .products .item .price button {
-        width: 201px;
-        height: 41px;
-        background-color: #00aee5;
-        border: none;
-        border-radius: 10px;
-        margin-top: 15px;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        text-shadow: 1px 2px 2px rgba(2, 89, 117, 0.6); }
+        background-color: #00aee5; }
         .products .item .price button:hover {
           cursor: pointer; }
         .products .item .price button:active {
@@ -68,6 +58,33 @@ header {
     width: 701px;
     background-color: #d4d4d4;
     margin-left: 10px; }
+
+.basket {
+  width: 226px;
+  height: 365px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px; }
+  .basket .basket_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .basket .basket_header img {
+      margin-top: 15px;
+      margin-right: 17px;
+      margin-left: 14px; }
+    .basket .basket_header h2 {
+      margin-top: 18px; }
+  .basket button {
+    background-color: #24d901; }
+    .basket button:hover {
+      cursor: pointer; }
+    .basket button:active {
+      background-color: #1caa00; }
+    .basket button:focus {
+      outline: none; }
 
 * {
   margin: 0;
@@ -93,6 +110,18 @@ p {
   letter-spacing: 0.3px;
   line-height: 18px;
   text-align: left; }
+
+button {
+  width: 201px;
+  height: 41px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 2px 2px rgba(2, 89, 117, 0.6); }
 
 footer {
   height: 121px;
