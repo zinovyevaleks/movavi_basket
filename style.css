@@ -60,8 +60,8 @@ header {
     margin-left: 10px; }
 
 .basket {
-  width: 226px;
-  height: 365px;
+  width: 227px;
+  min-height: 226px;
   border: 1px solid #d4d4d4;
   border-radius: 6px; }
   .basket .basket_header {
@@ -77,6 +77,11 @@ header {
       margin-left: 14px; }
     .basket .basket_header h2 {
       margin-top: 18px; }
+  .basket span {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-align: justify; }
   .basket button {
     background-color: #24d901; }
     .basket button:hover {
