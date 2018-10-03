@@ -1,4 +1,10 @@
 .basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 156px;
+  right: 464px;
   width: 227px;
   min-height: 226px;
   border: 1px solid #d4d4d4;
@@ -6,12 +12,13 @@
 
   .basket_header {
     display: flex;
+    flex-direction: row;
     align-items: center;
 
     img {
       margin-top: 15px;
       margin-right: 17px;
-      margin-left: 14px;
+      margin-left: -14px;
     }
 
     h2 {
@@ -19,14 +26,26 @@
     }
   }
 
-  span {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-    text-align: justify;
+  &_items {
+    min-height: 31px;
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+  &_total {
+    width: 202px;
+    height: 27px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 1px solid #d4d4d4;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   button {
+    margin-top: 29px;
     background-color: #24d901;
 
     &:hover {
@@ -41,4 +60,11 @@
       outline: none;
     }
   }
+
+
+}
+
+.stickytop {
+  position: fixed;
+  top: 0;
 }

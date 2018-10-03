@@ -60,6 +60,19 @@ header {
     margin-left: 10px; }
 
 .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 156px;
+  right: 464px;
   width: 227px;
   min-height: 226px;
   border: 1px solid #d4d4d4;
@@ -68,21 +81,39 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
     .basket .basket_header img {
       margin-top: 15px;
       margin-right: 17px;
-      margin-left: 14px; }
+      margin-left: -14px; }
     .basket .basket_header h2 {
       margin-top: 18px; }
-  .basket span {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-    text-align: justify; }
+  .basket_items {
+    min-height: 31px;
+    border-bottom: 1px solid #d4d4d4; }
+  .basket_total {
+    width: 202px;
+    height: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    border-top: 1px solid #d4d4d4; }
+    .basket_total span {
+      font-weight: 700; }
   .basket button {
+    margin-top: 29px;
     background-color: #24d901; }
     .basket button:hover {
       cursor: pointer; }
@@ -90,6 +121,10 @@ header {
       background-color: #1caa00; }
     .basket button:focus {
       outline: none; }
+
+.stickytop {
+  position: fixed;
+  top: 0; }
 
 * {
   margin: 0;
