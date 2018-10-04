@@ -1,10 +1,6 @@
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 104px;
   background-color: #000000; }
   header .logo {
@@ -14,8 +10,6 @@ header {
   width: 711px;
   padding-bottom: 18px; }
   .products .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
     padding-bottom: 20px; }
@@ -26,19 +20,10 @@ header {
         margin-top: 16px;
         margin-bottom: 16px; }
     .products .item .price {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       margin-left: 18px; }
       .products .item .price span {
         font-size: 24px;
@@ -60,34 +45,19 @@ header {
     margin-left: 10px; }
 
 .basket {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  top: 156px;
-  right: 464px;
+  flex-direction: column;
+  align-items: center;
   width: 227px;
-  min-height: 226px;
+  height: 226px;
+  margin-right: 14px;
+  margin-top: 50px;
   border: 1px solid #d4d4d4;
   border-radius: 6px; }
   .basket .basket_header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    flex-direction: row;
+    align-items: center; }
     .basket .basket_header img {
       margin-top: 15px;
       margin-right: 17px;
@@ -100,15 +70,9 @@ header {
   .basket_total {
     width: 202px;
     height: 27px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
     border-top: 1px solid #d4d4d4; }
     .basket_total span {
       font-weight: 700; }
@@ -130,12 +94,16 @@ header {
   margin: 0;
   padding: 0; }
 
-.content {
+.container {
   width: 1000px;
   height: 100%;
   margin: 0 auto;
   color: #131c1f;
   font-family: Arial; }
+
+.content {
+  display: flex;
+  justify-content: space-between; }
 
 h2 {
   font-size: 18px;
@@ -166,3 +134,5 @@ button {
 footer {
   height: 121px;
   background-color: #10546b; }
+
+/*# sourceMappingURL=style.css.map */

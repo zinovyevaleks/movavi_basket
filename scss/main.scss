@@ -8,12 +8,17 @@
   padding: 0;
 }
 
-.content {
+.container {
   width: 1000px;
   height: 100%;
   margin: 0 auto;
   color:  #131c1f;
   font-family: Arial;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
